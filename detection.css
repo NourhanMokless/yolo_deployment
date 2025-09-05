@@ -1,0 +1,211 @@
+body {
+       font-family: Arial, sans-serif;
+       margin: 0px;
+       background-image: url(images/1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       max-width: 100%;
+}
+
+.content {
+       background-color: rgba(0, 0, 0, 50%);
+       border-radius: 15px;
+       width: auto;
+       height: 530px;
+       position: relative;
+       margin: 7%;
+}
+
+.content h1 {
+       text-align: center;
+       padding-top: 5%;
+       margin: 0 25px 25px;
+       letter-spacing: 1px;
+       color: #D9D2E2;
+       word-spacing: 0.5px;
+       font-family: "Marcellus", serif;
+       font-weight: 400;
+       font-style: normal;
+}
+
+.content h2 {
+       text-align: center;
+       font-size: 20px;
+       margin: -5% auto 2%;
+       padding-top: 7%;
+       letter-spacing: 0.5px;
+       color: #fff;
+       word-spacing: 2.5px;
+       font-family: "Rubik", sans-serif;
+       font-optical-sizing: auto;
+       font-style: normal;
+       font-weight: 400;
+}
+
+label {
+       background-color: #A8A6A6;
+       height: 35px;
+       font-size: 90%;
+       font-weight: 600;
+       box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 14%);
+       -webkit-border-radius: 17px;
+       -moz-border-radius: 17px;
+       -ms-border-radius: 17px;
+       -o-border-radius: 17px;
+       position: unset;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+       width: 50%;
+}
+
+label:hover {
+       background-color: #D9D9D9;
+}
+
+span {
+       margin: 12px 27px;
+       color: black;
+
+}
+
+input {
+       display: none;
+}
+
+.content button {
+       border-radius: 17px;
+       color: #fff;
+       background-color: #2E4A21;
+       height: 35px;
+       font-size: 74%;
+       font-weight: 100;
+       border: none;
+       box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 14%);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 5% auto;
+       width: 50%;
+}
+
+button:hover {
+       background-color: #085a17;
+
+}
+
+
+.content img {
+       width: 180px;
+       height: 180px;
+       margin: auto;
+       display: flex;
+}
+
+h4 {
+       position: absolute;
+       margin-top: 12px;
+       left: 7%;
+       color: #fff;
+       font-size: 25px;
+       font-weight: 400;
+       font-family: "Rubik", sans-serif;
+}
+
+/* ********************************* */
+/* mobile */
+@media (max-width:767px) {}
+
+/* small screen */
+@media (min-width:768px) {
+
+       .content h1 {
+              font-size: 250%;
+
+       }
+
+       label {
+              position: absolute;
+              left: 7%;
+              top: 46%;
+              width: 30%;
+
+       }
+
+       .content button {
+              position: absolute;
+              left: 7%;
+              top: 56%;
+              width: 30%;
+
+
+       }
+
+       .content h2 {
+              position: absolute;
+              right: 13%;
+              top: 20%;
+       }
+
+       .content img {
+              position: absolute;
+              right: 7%;
+              top: 34%;
+              width: 250px;
+              height: 250px;
+       }
+
+       h4 {
+              bottom: 3%;
+       }
+
+
+}
+
+/* medium screen */
+@media (min-width:992px) {
+
+
+       .content {
+              height: 715px;
+
+       }
+
+       .content button,
+       label {
+              font-size: 125%;
+              height: 45px;
+              border-radius: 20px;
+       }
+
+       .content h2 {
+              font-size: 180%;
+              right: 13%;
+              top: 22%;
+       }
+
+       .content img {
+              width: 350px;
+              height: 345px;
+       }
+
+       .content h1 {
+              font-size: 315%;
+
+       }
+
+       h4 {
+              bottom: 2%;
+              font-size: xx-large;
+       }
+}
+
+
+
+
+/* large screen */
+@media (min-width:1200px) {}
+
+/* custom */
+@media (min-width:767px) {}
